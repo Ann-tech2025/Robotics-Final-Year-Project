@@ -1,9 +1,0 @@
-/home/ann/rosbot_ws/src/build/rosbot_joy/CMakeFiles/uninstall.dir
-/home/ann/rosbot_ws/src/build/rosbot_joy/CMakeFiles/rosbot_joy_uninstall.dir
-/home/ann/rosbot_ws/src/build/rosbot_joy/CMakeFiles/test.dir
-/home/ann/rosbot_ws/src/build/rosbot_joy/CMakeFiles/edit_cache.dir
-/home/ann/rosbot_ws/src/build/rosbot_joy/CMakeFiles/rebuild_cache.dir
-/home/ann/rosbot_ws/src/build/rosbot_joy/CMakeFiles/list_install_components.dir
-/home/ann/rosbot_ws/src/build/rosbot_joy/CMakeFiles/install.dir
-/home/ann/rosbot_ws/src/build/rosbot_joy/CMakeFiles/install/local.dir
-/home/ann/rosbot_ws/src/build/rosbot_joy/CMakeFiles/install/strip.dir
