@@ -1,0 +1,78 @@
+[0.093s] Invoking command in '/home/ann/rosbot_ws/src/build/rosbot_hardware_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ann/rosbot_ws/install/rosbot_controller:/home/ann/rosbot_ws/install/rosbot_utils:/home/ann/rosbot_ws/install/rosbot_gazebo:/home/ann/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake /home/ann/rosbot_ws/src/rosbot_ros/rosbot_hardware_interfaces -DCMAKE_INSTALL_PREFIX=/home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces
+[0.694s] -- The C compiler identification is GNU 11.4.0
+[1.030s] -- The CXX compiler identification is GNU 11.4.0
+[1.077s] -- Detecting C compiler ABI info
+[1.743s] -- Detecting C compiler ABI info - done
+[1.810s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.810s] -- Detecting C compile features
+[1.811s] -- Detecting C compile features - done
+[1.821s] -- Detecting CXX compiler ABI info
+[2.256s] -- Detecting CXX compiler ABI info - done
+[2.275s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.275s] -- Detecting CXX compile features
+[2.279s] -- Detecting CXX compile features - done
+[2.282s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.630s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.809s] -- Found hardware_interface: 2.53.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[2.905s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.905s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.922s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.965s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.986s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.378s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.380s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.457s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.904s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.912s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.031s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.070s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.115s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.194s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.259s] -- Looking for pthread.h
+[4.529s] -- Looking for pthread.h - found
+[4.529s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.758s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.759s] -- Found Threads: TRUE  
+[4.907s] -- Found realtime_tools: 2.15.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[5.100s] -- Configuring done
+[5.114s] -- Generating done
+[5.127s] -- Build files have been written to: /home/ann/rosbot_ws/src/build/rosbot_hardware_interfaces
+[5.159s] Invoked command in '/home/ann/rosbot_ws/src/build/rosbot_hardware_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ann/rosbot_ws/install/rosbot_controller:/home/ann/rosbot_ws/install/rosbot_utils:/home/ann/rosbot_ws/install/rosbot_gazebo:/home/ann/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake /home/ann/rosbot_ws/src/rosbot_ros/rosbot_hardware_interfaces -DCMAKE_INSTALL_PREFIX=/home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces
+[5.170s] Invoking command in '/home/ann/rosbot_ws/src/build/rosbot_hardware_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ann/rosbot_ws/install/rosbot_controller:/home/ann/rosbot_ws/install/rosbot_utils:/home/ann/rosbot_ws/install/rosbot_gazebo:/home/ann/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/ann/rosbot_ws/src/build/rosbot_hardware_interfaces -- -j3 -l3
+[5.717s] [ 33%] [32mBuilding CXX object CMakeFiles/rosbot_hardware_interfaces.dir/src/rosbot_system.cpp.o[0m
+[31.557s] [ 66%] [32mBuilding CXX object CMakeFiles/rosbot_hardware_interfaces.dir/src/rosbot_imu_sensor.cpp.o[0m
+[48.731s] [100%] [32m[1mLinking CXX shared library librosbot_hardware_interfaces.so[0m
+[49.715s] [100%] Built target rosbot_hardware_interfaces
+[49.793s] Invoked command in '/home/ann/rosbot_ws/src/build/rosbot_hardware_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ann/rosbot_ws/install/rosbot_controller:/home/ann/rosbot_ws/install/rosbot_utils:/home/ann/rosbot_ws/install/rosbot_gazebo:/home/ann/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/ann/rosbot_ws/src/build/rosbot_hardware_interfaces -- -j3 -l3
+[49.799s] Invoking command in '/home/ann/rosbot_ws/src/build/rosbot_hardware_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ann/rosbot_ws/install/rosbot_controller:/home/ann/rosbot_ws/install/rosbot_utils:/home/ann/rosbot_ws/install/rosbot_gazebo:/home/ann/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/ann/rosbot_ws/src/build/rosbot_hardware_interfaces
+[49.834s] -- Install configuration: ""
+[49.834s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/rosbot_hardware_interfaces.xml
+[49.897s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/include
+[49.898s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/include/rosbot_hardware_interfaces
+[49.902s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/include/rosbot_hardware_interfaces/rosbot_system.hpp
+[49.903s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/include/rosbot_hardware_interfaces/rosbot_imu_sensor.hpp
+[49.903s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/include/rosbot_hardware_interfaces/visibility_control.hpp
+[49.904s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/lib/librosbot_hardware_interfaces.so
+[49.920s] -- Set runtime path of "/home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/lib/librosbot_hardware_interfaces.so" to ""
+[49.920s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/library_path.sh
+[49.920s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/library_path.dsv
+[49.922s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/share/ament_index/resource_index/package_run_dependencies/rosbot_hardware_interfaces
+[49.922s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/share/ament_index/resource_index/parent_prefix_path/rosbot_hardware_interfaces
+[49.922s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/ament_prefix_path.sh
+[49.922s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/ament_prefix_path.dsv
+[49.922s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/path.sh
+[49.922s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/path.dsv
+[49.922s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/local_setup.bash
+[49.922s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/local_setup.sh
+[49.924s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/local_setup.zsh
+[49.925s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/local_setup.dsv
+[49.925s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/package.dsv
+[49.925s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/share/ament_index/resource_index/packages/rosbot_hardware_interfaces
+[49.926s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rosbot_hardware_interfaces
+[49.932s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[49.932s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[49.932s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[49.932s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/rosbot_hardware_interfacesConfig.cmake
+[49.932s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/rosbot_hardware_interfacesConfig-version.cmake
+[49.933s] -- Installing: /home/ann/rosbot_ws/src/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/package.xml
+[49.952s] Invoked command in '/home/ann/rosbot_ws/src/build/rosbot_hardware_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ann/rosbot_ws/install/rosbot_controller:/home/ann/rosbot_ws/install/rosbot_utils:/home/ann/rosbot_ws/install/rosbot_gazebo:/home/ann/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/ann/rosbot_ws/src/build/rosbot_hardware_interfaces

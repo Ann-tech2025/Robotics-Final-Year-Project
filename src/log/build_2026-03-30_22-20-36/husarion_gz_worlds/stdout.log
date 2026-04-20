@@ -1,0 +1,132 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ann/rosbot_ws/src/build/husarion_gz_worlds
+-- Install configuration: ""
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/config
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/config/teleop.config
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/launch
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/launch/gz_sim.launch.py
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/model.config
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/wheel.dae
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/astra.dae
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/box.dae
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/upper.dae
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/rplidar.dae
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/model.sdf
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Door
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Door/model.config
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Door/meshes
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Door/meshes/door.stl
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Door/model.sdf
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Tv
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Tv/model.config
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Tv/meshes
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Tv/meshes/tv.stl
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Tv/model.sdf
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Kitchen
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Kitchen/model.config
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Kitchen/meshes
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Kitchen/meshes/kitchen.stl
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Kitchen/model.sdf
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/model.config
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_6.mtl
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wall_1.obj
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_8.mtl
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_5.mtl
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wall_2.mtl
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_14.obj
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_10.obj
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_6.obj
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_3.obj
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_2.obj
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_8.obj
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_1.obj
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_11.mtl
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_7.obj
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_5.obj
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/white_wall.png
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wall_1.mtl
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_10.mtl
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_4.obj
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_9.obj
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/white_carpet.png
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/black_concrete.png
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_2.mtl
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_13.obj
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_12.mtl
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/model.material
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_11.obj
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_12.obj
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wood1.png
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/white_tiles.png
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_7.mtl
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_13.mtl
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_9.mtl
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wood2.png
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wall_2.obj
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_14.mtl
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_3.mtl
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_1.mtl
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_4.mtl
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/model.sdf
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Laptop
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Laptop/model.config
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Laptop/meshes
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Laptop/meshes/laptop.stl
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Laptop/model.sdf
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/WaterDispenser
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/WaterDispenser/model.config
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/WaterDispenser/meshes
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/WaterDispenser/meshes/water_dispenser.dae
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/WaterDispenser/model.sdf
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/HusarionLogo
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/HusarionLogo/meshes
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/HusarionLogo/meshes/husarion_logo.dae
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/ConferenceTable
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/ConferenceTable/model.config
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/ConferenceTable/meshes
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/ConferenceTable/meshes/conference_table.stl
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/models/ConferenceTable/model.sdf
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/worlds
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/worlds/husarion_office.sdf
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/worlds/sonoma_raceway.sdf
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/worlds/empty_with_plugins.sdf
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/worlds/husarion_world.sdf
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/maps
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/maps/husarion_world.yaml
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/maps/husarion_world.pgm
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/husarion_gz_worlds.sh
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/ament_index/resource_index/package_run_dependencies/husarion_gz_worlds
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/ament_index/resource_index/parent_prefix_path/husarion_gz_worlds
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/ament_prefix_path.sh
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/ament_prefix_path.dsv
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/path.sh
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/path.dsv
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/local_setup.bash
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/local_setup.sh
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/local_setup.zsh
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/local_setup.dsv
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/package.dsv
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/ament_index/resource_index/packages/husarion_gz_worlds
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/cmake/husarion_gz_worldsConfig.cmake
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/cmake/husarion_gz_worldsConfig-version.cmake
+-- Installing: /home/ann/rosbot_ws/src/install/husarion_gz_worlds/share/husarion_gz_worlds/package.xml

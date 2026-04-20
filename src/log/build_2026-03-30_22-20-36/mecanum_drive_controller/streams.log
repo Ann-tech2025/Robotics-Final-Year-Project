@@ -1,0 +1,91 @@
+[0.420s] Invoking command in '/home/ann/rosbot_ws/src/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ann/rosbot_ws/install/rosbot_controller:/home/ann/rosbot_ws/install/rosbot_utils:/home/ann/rosbot_ws/install/rosbot_gazebo:/home/ann/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake /home/ann/rosbot_ws/src/husarion_controllers/mecanum_drive_controller -DCMAKE_INSTALL_PREFIX=/home/ann/rosbot_ws/src/install/mecanum_drive_controller
+[2.285s] -- The C compiler identification is GNU 11.4.0
+[3.732s] -- The CXX compiler identification is GNU 11.4.0
+[3.773s] -- Detecting C compiler ABI info
+[4.102s] -- Detecting C compiler ABI info - done
+[4.132s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.132s] -- Detecting C compile features
+[4.134s] -- Detecting C compile features - done
+[4.147s] -- Detecting CXX compiler ABI info
+[4.470s] -- Detecting CXX compiler ABI info - done
+[4.502s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.502s] -- Detecting CXX compile features
+[4.502s] -- Detecting CXX compile features - done
+[4.660s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.675s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.139s] -- Found controller_interface: 2.53.1 (/opt/ros/humble/share/controller_interface/cmake)
+[6.522s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.639s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.798s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.974s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.228s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.406s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.503s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.892s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[10.243s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[10.350s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[10.449s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.467s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[10.493s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[10.554s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.682s] -- Looking for pthread.h
+[11.192s] -- Looking for pthread.h - found
+[11.192s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.760s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.771s] -- Found Threads: TRUE  
+[12.067s] -- Found generate_parameter_library: 0.6.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[12.108s] -- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[12.226s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[12.346s] -- Found realtime_tools: 2.15.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[12.482s] -- Found tf2: 0.25.19 (/opt/ros/humble/share/tf2/cmake)
+[12.515s] -- Found tf2_msgs: 0.25.19 (/opt/ros/humble/share/tf2_msgs/cmake)
+[12.842s] -- Configuring done
+[13.004s] -- Generating done
+[13.089s] -- Build files have been written to: /home/ann/rosbot_ws/src/build/mecanum_drive_controller
+[13.131s] Invoked command in '/home/ann/rosbot_ws/src/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ann/rosbot_ws/install/rosbot_controller:/home/ann/rosbot_ws/install/rosbot_utils:/home/ann/rosbot_ws/install/rosbot_gazebo:/home/ann/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake /home/ann/rosbot_ws/src/husarion_controllers/mecanum_drive_controller -DCMAKE_INSTALL_PREFIX=/home/ann/rosbot_ws/src/install/mecanum_drive_controller
+[13.162s] Invoking command in '/home/ann/rosbot_ws/src/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ann/rosbot_ws/install/rosbot_controller:/home/ann/rosbot_ws/install/rosbot_utils:/home/ann/rosbot_ws/install/rosbot_gazebo:/home/ann/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/ann/rosbot_ws/src/build/mecanum_drive_controller -- -j3 -l3
+[13.539s] [ 16%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/ann/rosbot_ws/src/build/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller_parameters.hpp /home/ann/rosbot_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller_parameter.yaml `[0m
+[16.291s] [ 33%] [34m[1mCreating deprecated header file /home/ann/rosbot_ws/src/build/mecanum_drive_controller/include/mecanum_drive_controller_parameters.hpp[0m
+[16.379s] [ 33%] Built target mecanum_drive_controller_parameters
+[16.485s] [ 50%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o[0m
+[52.943s] [ 66%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/speed_limiter.cpp.o[0m
+[54.366s] [ 83%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/odometry.cpp.o[0m
+[56.098s] [100%] [32m[1mLinking CXX shared library libmecanum_drive_controller.so[0m
+[58.917s] [100%] Built target mecanum_drive_controller
+[59.023s] Invoked command in '/home/ann/rosbot_ws/src/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ann/rosbot_ws/install/rosbot_controller:/home/ann/rosbot_ws/install/rosbot_utils:/home/ann/rosbot_ws/install/rosbot_gazebo:/home/ann/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/ann/rosbot_ws/src/build/mecanum_drive_controller -- -j3 -l3
+[59.024s] Invoking command in '/home/ann/rosbot_ws/src/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ann/rosbot_ws/install/rosbot_controller:/home/ann/rosbot_ws/install/rosbot_utils:/home/ann/rosbot_ws/install/rosbot_gazebo:/home/ann/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/ann/rosbot_ws/src/build/mecanum_drive_controller
+[59.037s] -- Install configuration: ""
+[59.046s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/include/mecanum_drive_controller
+[59.047s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller_parameters.hpp
+[59.047s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/mecanum_drive_plugin.xml
+[59.108s] -- Up-to-date: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/include/mecanum_drive_controller
+[59.108s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller
+[59.108s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/speed_limiter.hpp
+[59.108s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/visibility_control.h
+[59.110s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/odometry.hpp
+[59.112s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/mecanum_drive_controller.hpp
+[59.118s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/lib/libmecanum_drive_controller.so
+[59.154s] -- Set runtime path of "/home/ann/rosbot_ws/src/install/mecanum_drive_controller/lib/libmecanum_drive_controller.so" to ""
+[59.157s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.sh
+[59.171s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.dsv
+[59.172s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/share/ament_index/resource_index/package_run_dependencies/mecanum_drive_controller
+[59.175s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/share/ament_index/resource_index/parent_prefix_path/mecanum_drive_controller
+[59.187s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.sh
+[59.192s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.dsv
+[59.196s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.sh
+[59.209s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.dsv
+[59.210s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.bash
+[59.210s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.sh
+[59.210s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.zsh
+[59.210s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.dsv
+[59.211s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/package.dsv
+[59.211s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/share/ament_index/resource_index/packages/mecanum_drive_controller
+[59.211s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/mecanum_drive_controller
+[59.220s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport.cmake
+[59.221s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport-noconfig.cmake
+[59.221s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[59.227s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_targets-extras.cmake
+[59.227s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig.cmake
+[59.229s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig-version.cmake
+[59.229s] -- Installing: /home/ann/rosbot_ws/src/install/mecanum_drive_controller/share/mecanum_drive_controller/package.xml
+[59.248s] Invoked command in '/home/ann/rosbot_ws/src/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ann/rosbot_ws/install/rosbot_controller:/home/ann/rosbot_ws/install/rosbot_utils:/home/ann/rosbot_ws/install/rosbot_gazebo:/home/ann/rosbot_ws/install/rosbot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/ann/rosbot_ws/src/build/mecanum_drive_controller

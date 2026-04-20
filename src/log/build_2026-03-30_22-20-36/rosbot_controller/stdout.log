@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/rosbot_controller/rosbot_controller.egg-info
+writing ../../build/rosbot_controller/rosbot_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/rosbot_controller/rosbot_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/rosbot_controller/rosbot_controller.egg-info/entry_points.txt
+writing requirements to ../../build/rosbot_controller/rosbot_controller.egg-info/requires.txt
+writing top-level names to ../../build/rosbot_controller/rosbot_controller.egg-info/top_level.txt
+writing manifest file '../../build/rosbot_controller/rosbot_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/rosbot_controller/rosbot_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/rosbot_controller/rosbot_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ann/rosbot_ws/src/build/rosbot_controller/build
+creating /home/ann/rosbot_ws/src/build/rosbot_controller/build/lib
+creating /home/ann/rosbot_ws/src/build/rosbot_controller/build/lib/rosbot_controller
+copying rosbot_controller/arm_control.py -> /home/ann/rosbot_ws/src/build/rosbot_controller/build/lib/rosbot_controller
+copying rosbot_controller/__init__.py -> /home/ann/rosbot_ws/src/build/rosbot_controller/build/lib/rosbot_controller
+running install
+running install_lib
+creating /home/ann/rosbot_ws/src/install/rosbot_controller/lib/python3.10/site-packages/rosbot_controller
+copying /home/ann/rosbot_ws/src/build/rosbot_controller/build/lib/rosbot_controller/arm_control.py -> /home/ann/rosbot_ws/src/install/rosbot_controller/lib/python3.10/site-packages/rosbot_controller
+copying /home/ann/rosbot_ws/src/build/rosbot_controller/build/lib/rosbot_controller/__init__.py -> /home/ann/rosbot_ws/src/install/rosbot_controller/lib/python3.10/site-packages/rosbot_controller
+byte-compiling /home/ann/rosbot_ws/src/install/rosbot_controller/lib/python3.10/site-packages/rosbot_controller/arm_control.py to arm_control.cpython-310.pyc
+byte-compiling /home/ann/rosbot_ws/src/install/rosbot_controller/lib/python3.10/site-packages/rosbot_controller/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ann/rosbot_ws/src/install/rosbot_controller/share/ament_index
+creating /home/ann/rosbot_ws/src/install/rosbot_controller/share/ament_index/resource_index
+creating /home/ann/rosbot_ws/src/install/rosbot_controller/share/ament_index/resource_index/packages
+copying resource/rosbot_controller -> /home/ann/rosbot_ws/src/install/rosbot_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/ann/rosbot_ws/src/install/rosbot_controller/share/rosbot_controller
+creating /home/ann/rosbot_ws/src/install/rosbot_controller/share/rosbot_controller/config
+creating /home/ann/rosbot_ws/src/install/rosbot_controller/share/rosbot_controller/config/rosbot
+copying config/rosbot/controllers.yaml -> /home/ann/rosbot_ws/src/install/rosbot_controller/share/rosbot_controller/config/rosbot
+creating /home/ann/rosbot_ws/src/install/rosbot_controller/share/rosbot_controller/config/rosbot_xl
+copying config/rosbot_xl/controllers.yaml -> /home/ann/rosbot_ws/src/install/rosbot_controller/share/rosbot_controller/config/rosbot_xl
+creating /home/ann/rosbot_ws/src/install/rosbot_controller/share/rosbot_controller/launch
+copying launch/controller.launch.py -> /home/ann/rosbot_ws/src/install/rosbot_controller/share/rosbot_controller/launch
+copying launch/manipulator.launch.py -> /home/ann/rosbot_ws/src/install/rosbot_controller/share/rosbot_controller/launch
+running install_egg_info
+Copying ../../build/rosbot_controller/rosbot_controller.egg-info to /home/ann/rosbot_ws/src/install/rosbot_controller/lib/python3.10/site-packages/rosbot_controller-0.15.2-py3.10.egg-info
+running install_scripts
+Installing arm_control script to /home/ann/rosbot_ws/src/install/rosbot_controller/lib/rosbot_controller
+writing list of installed files to '/home/ann/rosbot_ws/src/build/rosbot_controller/install.log'
