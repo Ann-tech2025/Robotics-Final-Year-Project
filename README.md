@@ -3,7 +3,7 @@
 
 This repository contains the full implementation of an autonomous robot integrated with emotion recognition.
 
-## 📁 Project Structure
+## Project Structure
 
 * **/rosbot_ros**: Main ROS 2 workspace containing navigation packages and Gazebo simulation environments.
 * **/arduino_codes**: Firmware for hardware components, including sensor integration and micro-controller logic.
@@ -12,7 +12,7 @@ This repository contains the full implementation of an autonomous robot integrat
 * **/models**: Pre-trained weights for the speech and vision models.
 * **/training_data**: Documentation on image datasets and training logs.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 * Ubuntu 22.04 (or your version)
